@@ -8,6 +8,6 @@ public class TestController {
 
     @GetMapping
     public String defaultEndPoint() {
-        return "This is from Product Service";
+        return "Product Service is up and running";
     }
 }
